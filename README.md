@@ -6,7 +6,7 @@ A form that stores data in a table. Pokedex-inspired design.
 
 ## Usage
 
-* Visit [pokedex-form-table](https://stefanygonzalezleon.github.io/slot-machine-gaming/)
+* Visit [pokedex-form-table](https://stefanygonzalezleon.github.io/pokedex-form-table-/)
 * Add, Edit and delete data from the table.
 * Average inserted note is displayed.
 
