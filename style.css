@@ -1,0 +1,172 @@
+
+body{
+    background-color: black;
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    max-width: 631px;;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-family: 'Courier', monospace;
+    font-size: 16px;
+}
+
+
+img.uno{
+    height: 385px;
+    margin-top: 54px;
+
+}
+
+img.tres{
+    position: absolute;
+    margin-left: 242px;
+    margin-top: 97px;
+}
+
+div.pokedexRight{
+    width: 367px;
+    background-color: #ff3334;
+    height: 409px;
+    border: 4px solid red;
+    border-radius: 10px;
+    margin-top: 22px;
+    border: 2px solid black;
+
+}
+
+div.pokedex{
+    width: 194px;
+    margin-right: 62px;
+}
+
+div.top {
+    background-color: #ff3334;
+    width: 208px;
+    height: 99px;
+    margin-left: -2px;
+    margin-top: -52px;
+    border-radius: 20px 131px 10px 10px;
+    border-left-style: inherit;
+    border-top-style: solid;
+  
+}
+
+div.card {
+    margin-right: 10px;
+    margin-left: auto;
+    box-shadow: 0 15px 25px rgb(129 124 124 / 20%);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(73, 70, 99, 0.639);
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 333px;
+    height: 327px;
+    margin-top: 39px;
+    border: 2px solid darkslategray;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0); 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.324); 
+}
+
+div.card_pokedex{
+    margin-top: -300px;
+    width: 200px;
+    margin-left: 37px;
+}
+
+table, th, td {
+    border: 1px solid #3c930073;
+    background-color: #9dff34;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 9px;
+    font-size: 12px;
+    font-weight: 600;
+    word-wrap: break-word;
+    cursor: grab;
+}
+
+.promedio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.promedio{
+    margin-top: 834px;
+    position: absolute;
+    margin-right: 389px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+img.trophy{
+    position: absolute;
+    width: 49px;
+    margin-left: -48px;
+    height: 50px;
+    margin-top: 396px;
+}
+
+.button{
+    width: 25px;
+    margin-top: 108px;
+    margin-left: 177px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #4caf5066;
+}
+
+.button-clear{
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 167px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #a52a2a52;
+}
+
+button.icon {
+    background-color: #9acd3208;
+    border-color: #faebd700;
+    margin-top: 3px;
+    border: none;
+    padding: 0;
+}
+.icon img{
+    width: 25px;
+    height: 24px;
+    cursor: pointer;
+}
+

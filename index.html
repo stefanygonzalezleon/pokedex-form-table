@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>pokedex form</title>
+</head>
+
+<body>
+  <div class="pokedex">
+    <img class="uno" src="img\pokedex-screen.jpg" alt="">
+
+    <div class="card_pokedex">
+      <form id="survey-form">
+        <div class="form-name_apellido">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" placeholder="introduce tu nombre" required />
+
+          <label for="name">Apellido</label>
+          <input type="text" name="apellido" id="apellido" placeholder="introduce tu apellido" required />
+        </div>
+
+        <div class="form-matricula">
+          <label for="matricula" lass="form-label input-group">Matricula</label>
+          <input type="number" name="matricula" id="matricula" placeholder="introduce tu matricula" required />
+        </div>
+        <div class="form-Nota ">
+          <label for="number">Nota</label>
+          <input type="number" name="nota" id="nota" min="10" max="100" placeholder="nota" required />
+        </div>
+        <button type="button" id="clear" class="button-clear">
+        </button>
+        <button type="submit" id="submit" class="button">
+          
+        </button>
+    </div>
+  </div>
+  </div>
+
+  <div class="pokedexRight">
+    <div class="top"></div>
+  </div>
+
+  <div class="card">
+    <table class="tabla" id="formtable">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Matricula</th>
+          <th>Nota</th>
+          <th>Accion</th>
+        </tr>
+      </thead>
+      <tbody id="estudiantes"></tbody>
+    </table>
+  </div>
+  <div class="promedio-container">
+    <p class="promedio" id="promedio"></p>
+    <img class="trophy" src="img\trophy-beker.gif" alt="">
+  </div>
+  <img class="tres" src="img\entrenadora_pokemon.gif" alt="">
+
+  <script src="actions.js"></script>
+</body>
+
+</html>
