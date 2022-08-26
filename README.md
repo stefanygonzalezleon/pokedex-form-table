@@ -2,7 +2,7 @@
 
 A form that stores data in a table. Pokedex-inspired design.
 
-![preview](img/preview.png)
+![preview](img/preview.PNG)
 
 ## Usage
 
